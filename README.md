@@ -1,2 +1,2 @@
 First things first you should click here
-<a href="index.html">Image Locator<a/>
+<a href="index.html">Image Locator<a/> 
