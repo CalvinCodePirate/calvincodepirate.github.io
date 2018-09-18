@@ -5,7 +5,7 @@
 	$client_secret = "";
 	// Load the Foursquare API library
 
-	if($client_key=="" or $client_secret=="")
+	if($client_key=="1N2JKDNNR0WBMX5OQ2WB0RRYO35SJUBPEWDF5UFYOAR1MYHW" or $client_secret=="GOBQQHH4HMT2YZPRPJWTXKXB4NRXSXXXOVHYMFYBYRHYVPH1")
 	{
         echo 'Load client key and client secret from <a href="https://developer.foursquare.com/">foursquare</a>';
         exit;
