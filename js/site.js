@@ -63,7 +63,7 @@ function getVenues() {
   		url: "https://api.foursquare.com/v2/venues/explore?ll="+lat+","+lng+"&client_id=1N2JKDNNR0WBMX5OQ2WB0RRYO35SJUBPEWDF5UFYOAR1MYHW&client_secret=GOBQQHH4HMT2YZPRPJWTXKXB4NRXSXXXOVHYMFYBYRHYVPH1&v=20130619&query="+$("#query").val()+"",
 	  		success: function(data) {
 			var dataobj = data.response.groups[0].items;
-			$("#venues").html("");
+			$("#venues").html(""); 
 			
 			$.each( dataobj, function() {
 				if (this.venue.categories[0]) {
